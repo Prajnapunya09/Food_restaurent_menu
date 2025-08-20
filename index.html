@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Restaurant Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+    }
+    .menu-container {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      max-width: 600px;
+      width: 100%;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: 600;
+      color: #ff9800;
+    }
+    h2 {
+      margin: 20px 0 10px;
+      color: #333;
+      border-bottom: 2px solid #ff9800;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      margin: 10px 0;
+      padding: 0;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px dashed #ccc;
+      font-size: 1rem;
+      color: #333;
+    }
+    li span {
+      font-weight: 600;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <h1>🍽️ Restaurant Menu</h1>
+
+    <h2>Starters</h2>
+    <ul>
+      <li><span>Samosa</span> ₹20</li>
+      <li><span>Spring Rolls</span> ₹100</li>
+      <li><span>Vada</span> ₹40</li>
+      <li><span>Idli</span> ₹50</li>
+    </ul>
+
+    <h2>Main Course</h2>
+    <ul>
+      <li><span>Biryani</span> ₹180</li>
+      <li><span>Butter Chicken</span> ₹220</li>
+      <li><span>Paneer Tikka</span> ₹160</li>
+      <li><span>Palak Paneer</span> ₹150</li>
+      <li><span>Pizza</span> ₹200</li>
+      <li><span>Burger</span> ₹100</li>
+    </ul>
+
+    <h2>Desserts</h2>
+    <ul>
+      <li><span>Gulab Jamun</span> ₹40</li>
+      <li><span>Jalebi</span> ₹30</li>
+      <li><span>Ice Cream</span> ₹60</li>
+      <li><span>Chocolate Cake</span> ₹120</li>
+    </ul>
+  </div>
+</body>
+</html>
